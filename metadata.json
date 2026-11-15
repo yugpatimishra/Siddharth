@@ -1,0 +1,6 @@
+{
+  "name": "Veridian Coast",
+  "description": "Living open-world city simulation with emergent careers, AI-driven NPC schedules and relationships, persistent WebSocket multiplayer, Google Maps global navigation, and Google Calendar/Tasks sync.",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,479 @@
+{
+  "economy": {
+    "safetyIndex": 64,
+    "commerceIndex": 71.6,
+    "cultureIndex": 68,
+    "crimeHeat": 28,
+    "unemploymentRate": 4.8,
+    "gdpGrowth": 3.6,
+    "sectorDemand": {
+      "law_enforcement": 0.98,
+      "criminal": 1.18,
+      "entrepreneur": 1.25,
+      "artist": 1.27
+    },
+    "sectorWageMultiplier": {
+      "law_enforcement": 1.12,
+      "criminal": 1.21,
+      "entrepreneur": 1.2,
+      "artist": 1.18
+    },
+    "recentHeadline": "Priya Nair expanded district vendor routes, tightening local labor demand.",
+    "lastUpdatedAt": 1794720735381
+  },
+  "npcs": [
+    {
+      "id": "npc_elena",
+      "name": "Lt. Elena Vance",
+      "role": "Metro Precinct Tactical Coordinator",
+      "career": "law_enforcement",
+      "careerLevel": 3,
+      "homeDistrict": "oceanfront",
+      "workDistrict": "financial",
+      "personality": "Sharp, principled, deeply protective of neighborhood small businesses, wary of shortcuts.",
+      "voicePersona": "Charon",
+      "shirtColor": 1920728,
+      "accentColor": 3718648,
+      "x": -44,
+      "z": -24,
+      "heading": 0.5,
+      "currentActivity": "Coordinating morning patrol routes",
+      "mood": "Focused",
+      "affinity": 15,
+      "trust": 45,
+      "economicImpact": "Reduces harbor insurance premiums & attracts retail tenants.",
+      "memory": [
+        "Monitoring bayfront cargo manifests for anomalies."
+      ],
+      "schedule": [
+        {
+          "startHour": 6,
+          "endHour": 12,
+          "activity": "Precinct briefing & downtown patrol",
+          "districtId": "financial",
+          "x": -48,
+          "z": -28
+        },
+        {
+          "startHour": 12,
+          "endHour": 14,
+          "activity": "Espresso stop at Oceanfront Cafe",
+          "districtId": "oceanfront",
+          "x": -6,
+          "z": 36
+        },
+        {
+          "startHour": 14,
+          "endHour": 20,
+          "activity": "Harbor checkpoint inspection",
+          "districtId": "harbor",
+          "x": -64,
+          "z": 48
+        },
+        {
+          "startHour": 20,
+          "endHour": 6,
+          "activity": "Off-duty boardwalk jog & rest",
+          "districtId": "oceanfront",
+          "x": 14,
+          "z": 58
+        }
+      ]
+    },
+    {
+      "id": "npc_marcus",
+      "name": "Marcus \"Veloce\" Reyes",
+      "role": "Harbor Customs Broker & Underground Fixer",
+      "career": "criminal",
+      "careerLevel": 3,
+      "homeDistrict": "harbor",
+      "workDistrict": "harbor",
+      "personality": "Smooth-talking pragmatist who respects competence and timely deliveries above all.",
+      "voicePersona": "Fenrir",
+      "shirtColor": 10424889,
+      "accentColor": 16007006,
+      "x": -68,
+      "z": 52,
+      "heading": -0.9,
+      "currentActivity": "Checking container manifests at Pier 4",
+      "mood": "Guarded",
+      "affinity": 5,
+      "trust": 30,
+      "economicImpact": "Drives black-market liquidity and shifts port security demand.",
+      "memory": [
+        "Looking for reliable wheelmen who avoid precinct patrols."
+      ],
+      "schedule": [
+        {
+          "startHour": 7,
+          "endHour": 13,
+          "activity": "Freight manifest audits at Docks",
+          "districtId": "harbor",
+          "x": -70,
+          "z": 54
+        },
+        {
+          "startHour": 13,
+          "endHour": 18,
+          "activity": "Backroom meetings in Neon Quarter",
+          "districtId": "arts",
+          "x": 48,
+          "z": -18
+        },
+        {
+          "startHour": 18,
+          "endHour": 2,
+          "activity": "Nighttime drop coordination near Bay",
+          "districtId": "harbor",
+          "x": -62,
+          "z": 60
+        },
+        {
+          "startHour": 2,
+          "endHour": 7,
+          "activity": "Safehouse rest",
+          "districtId": "harbor",
+          "x": -78,
+          "z": 45
+        }
+      ]
+    },
+    {
+      "id": "npc_priya",
+      "name": "Priya Nair",
+      "role": "Founder, Sunline Mobility & Ventures",
+      "career": "entrepreneur",
+      "careerLevel": 4,
+      "homeDistrict": "financial",
+      "workDistrict": "financial",
+      "personality": "Data-obsessed, energetic builder constantly scouting talent and safe districts for expansion.",
+      "voicePersona": "Kore",
+      "shirtColor": 292951,
+      "accentColor": 1096065,
+      "x": -52,
+      "z": -42,
+      "heading": 1.2,
+      "currentActivity": "Pitching waterfront retail expansion",
+      "mood": "Optimistic",
+      "affinity": 22,
+      "trust": 50,
+      "economicImpact": "Creates local jobs and lifts baseline wage multipliers when safe.",
+      "memory": [
+        "Tracking city safety index before opening a third flagship lounge."
+      ],
+      "schedule": [
+        {
+          "startHour": 8,
+          "endHour": 15,
+          "activity": "Venture strategy at Financial Tower",
+          "districtId": "financial",
+          "x": -52,
+          "z": -40
+        },
+        {
+          "startHour": 15,
+          "endHour": 19,
+          "activity": "Scouting gallery space in Arts Quarter",
+          "districtId": "arts",
+          "x": 50,
+          "z": -32
+        },
+        {
+          "startHour": 19,
+          "endHour": 23,
+          "activity": "Networking dinner on Oceanfront",
+          "districtId": "oceanfront",
+          "x": 8,
+          "z": 44
+        },
+        {
+          "startHour": 23,
+          "endHour": 8,
+          "activity": "Penthouse rest",
+          "districtId": "financial",
+          "x": -60,
+          "z": -48
+        }
+      ]
+    },
+    {
+      "id": "npc_kael",
+      "name": "Kaelen \"K-Wave\" Sato",
+      "role": "Visual Muralist & Synth Producer",
+      "career": "artist",
+      "careerLevel": 3,
+      "homeDistrict": "arts",
+      "workDistrict": "arts",
+      "personality": "Expressive, observant storyteller tuned into the emotional pulse of the streets.",
+      "voicePersona": "Zephyr",
+      "shirtColor": 14251782,
+      "accentColor": 16096779,
+      "x": 52,
+      "z": -28,
+      "heading": -2.1,
+      "currentActivity": "Mixing sunset synth stems outdoors",
+      "mood": "Inspired",
+      "affinity": 28,
+      "trust": 55,
+      "economicImpact": "Lifts district tourism, café traffic, and cultural property demand.",
+      "memory": [
+        "Composing a track inspired by the golden-hour ocean breeze."
+      ],
+      "schedule": [
+        {
+          "startHour": 9,
+          "endHour": 14,
+          "activity": "Mural scaffolding in Neon Quarter",
+          "districtId": "arts",
+          "x": 56,
+          "z": -26
+        },
+        {
+          "startHour": 14,
+          "endHour": 18,
+          "activity": "Field recording on Oceanfront Boardwalk",
+          "districtId": "oceanfront",
+          "x": 18,
+          "z": 54
+        },
+        {
+          "startHour": 18,
+          "endHour": 1,
+          "activity": "Live rooftop DJ set in Arts Quarter",
+          "districtId": "arts",
+          "x": 46,
+          "z": -36
+        },
+        {
+          "startHour": 1,
+          "endHour": 9,
+          "activity": "Loft studio rest",
+          "districtId": "arts",
+          "x": 62,
+          "z": -38
+        }
+      ]
+    },
+    {
+      "id": "npc_mateo",
+      "name": "Mateo Alvarez",
+      "role": "Independent Courier & Fleet Driver",
+      "career": "entrepreneur",
+      "careerLevel": 2,
+      "homeDistrict": "oceanfront",
+      "workDistrict": "oceanfront",
+      "personality": "Friendly, street-smart, always knows which avenues have construction or police speed traps.",
+      "voicePersona": "Puck",
+      "shirtColor": 1013358,
+      "accentColor": 3003583,
+      "x": 4,
+      "z": 38,
+      "heading": 0.1,
+      "currentActivity": "Loading express boutique parcels",
+      "mood": "Optimistic",
+      "affinity": 20,
+      "trust": 42,
+      "economicImpact": "Keeps district supply chains flowing and reduces delivery delays.",
+      "memory": [
+        "Hoping city commerce grows so independent drivers earn higher bonuses."
+      ],
+      "schedule": [
+        {
+          "startHour": 7,
+          "endHour": 14,
+          "activity": "Morning parcel runs across Oceanfront",
+          "districtId": "oceanfront",
+          "x": 2,
+          "z": 36
+        },
+        {
+          "startHour": 14,
+          "endHour": 19,
+          "activity": "Freight pickup at Bayfront Docks",
+          "districtId": "harbor",
+          "x": -58,
+          "z": 44
+        },
+        {
+          "startHour": 19,
+          "endHour": 23,
+          "activity": "Supper club meetup in Arts Quarter",
+          "districtId": "arts",
+          "x": 42,
+          "z": -22
+        },
+        {
+          "startHour": 23,
+          "endHour": 7,
+          "activity": "Off-shift rest",
+          "districtId": "oceanfront",
+          "x": -12,
+          "z": 48
+        }
+      ]
+    },
+    {
+      "id": "npc_sora",
+      "name": "Inspector Sora Takahashi",
+      "role": "Cyber-Finance & Anti-Laundering Specialist",
+      "career": "law_enforcement",
+      "careerLevel": 4,
+      "homeDistrict": "financial",
+      "workDistrict": "financial",
+      "personality": "Methodical, witty, notices every suspicious ledger transfer in the city.",
+      "voicePersona": "Kore",
+      "shirtColor": 3223169,
+      "accentColor": 8490232,
+      "x": -40,
+      "z": -48,
+      "heading": 2.3,
+      "currentActivity": "Auditing commercial tax filings",
+      "mood": "Focused",
+      "affinity": 10,
+      "trust": 38,
+      "economicImpact": "Protects legitimate ventures from syndicate shell competition.",
+      "memory": [
+        "Cross-referencing shell companies between Harbor and Financial Core."
+      ],
+      "schedule": [
+        {
+          "startHour": 8,
+          "endHour": 17,
+          "activity": "Financial Core compliance desk",
+          "districtId": "financial",
+          "x": -42,
+          "z": -46
+        },
+        {
+          "startHour": 17,
+          "endHour": 21,
+          "activity": "Evening tea on Oceanfront Promenade",
+          "districtId": "oceanfront",
+          "x": -10,
+          "z": 52
+        },
+        {
+          "startHour": 21,
+          "endHour": 8,
+          "activity": "Residential rest",
+          "districtId": "financial",
+          "x": -58,
+          "z": -22
+        }
+      ]
+    }
+  ],
+  "missions": [
+    {
+      "id": "m_le_1",
+      "title": "Bayfront Perimeter Sweep",
+      "description": "Drive to Bayfront Docks and deter suspicious late-night freight transfers to stabilize commercial insurance rates.",
+      "career": "law_enforcement",
+      "districtId": "harbor",
+      "districtName": "Bayfront Docks",
+      "targetX": -66,
+      "targetZ": 52,
+      "baseRewardCash": 850,
+      "rewardXp": 140,
+      "difficulty": "Standard",
+      "status": "available",
+      "source": "career",
+      "economicDelta": {
+        "safetyIndex": 6,
+        "crimeHeat": -7,
+        "commerceIndex": 2
+      }
+    },
+    {
+      "id": "m_cr_1",
+      "title": "Pier 4 Midnight Manifest",
+      "description": "Intercept an unlogged luxury import crate at Bayfront Docks and deliver it cleanly to Wynwood Neon Quarter.",
+      "career": "criminal",
+      "districtId": "arts",
+      "districtName": "Wynwood Neon Quarter",
+      "targetX": 54,
+      "targetZ": -24,
+      "baseRewardCash": 1250,
+      "rewardXp": 165,
+      "difficulty": "High Stakes",
+      "status": "available",
+      "source": "career",
+      "economicDelta": {
+        "crimeHeat": 8,
+        "safetyIndex": -4,
+        "commerceIndex": -1
+      }
+    },
+    {
+      "id": "m_en_1",
+      "title": "Oceanfront Pop-Up Launch",
+      "description": "Deliver venture inventory from Financial Core to the Oceanfront Boulevard retail strip and hire a local citizen.",
+      "career": "entrepreneur",
+      "districtId": "oceanfront",
+      "districtName": "Oceanfront Boulevard",
+      "targetX": 6,
+      "targetZ": 44,
+      "baseRewardCash": 980,
+      "rewardXp": 150,
+      "difficulty": "Standard",
+      "status": "available",
+      "source": "career",
+      "economicDelta": {
+        "commerceIndex": 7,
+        "safetyIndex": 1
+      }
+    },
+    {
+      "id": "m_ar_1",
+      "title": "Neon Quarter Sound Residency",
+      "description": "Stage an open-air audiovisual showcase in the Arts Quarter to surge neighborhood foot traffic and cultural prestige.",
+      "career": "artist",
+      "districtId": "arts",
+      "districtName": "Wynwood Neon Quarter",
+      "targetX": 48,
+      "targetZ": -32,
+      "baseRewardCash": 900,
+      "rewardXp": 145,
+      "difficulty": "Standard",
+      "status": "available",
+      "source": "career",
+      "economicDelta": {
+        "cultureIndex": 8,
+        "commerceIndex": 3
+      }
+    }
+  ],
+  "players": {
+    "guest": {
+      "playerId": "guest",
+      "displayName": "Citizen UEST",
+      "cityId": "veridian",
+      "cash": 2500,
+      "reputation": 120,
+      "activeCareer": "entrepreneur",
+      "careerXp": {
+        "law_enforcement": 40,
+        "criminal": 20,
+        "entrepreneur": 80,
+        "artist": 50
+      },
+      "skillPoints": 2,
+      "unlockedSkills": [],
+      "ownedBusinesses": 0,
+      "completedMissionIds": [],
+      "wantedHeat": 0,
+      "avatarColor": "#f59e0b"
+    }
+  },
+  "chat": [
+    {
+      "id": "sys_welcome",
+      "senderId": "system",
+      "senderName": "City Exchange",
+      "cityId": "veridian",
+      "text": "Markets open across Veridian Coast. Career wages dynamically adjust to district safety, commerce, and culture.",
+      "timestamp": 1794720710380,
+      "kind": "economy"
+    }
+  ]
+}
